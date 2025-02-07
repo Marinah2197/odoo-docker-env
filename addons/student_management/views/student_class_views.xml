@@ -1,0 +1,52 @@
+<odoo>
+	<data>
+		<record model="ir.ui.view" id="student_class_tree_view">
+            <field name="name">student.class.tree.view</field>
+            <field name="model">student.class</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name"/>
+                    <field name="student_number"/>
+                    <field name="stage"/>
+                    <field name="old_stud"/>
+                    <field name="new_stud"/>
+                </tree>
+            </field>
+        </record>
+
+         <record id="student_class_view_form" model="ir.ui.view">
+            <field name="name">student_class_view_form</field>
+            <field name="model">student.class</field>
+            <field name="arch" type="xml">
+                <form string="student_class_form">
+                    <header >
+                            <button name="create_wizard" string="Create Wizard" class="oe_highlight" type="object"/>
+                        </header>
+                    <sheet> 
+                    	<group>
+                                <field name="name" required="1"/>
+                                <field name="student_number" required="1"/>
+                                <field name="new_stud" required="1"/>
+                                <field name="stage" required="1"/>
+                        </group>
+                         
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        
+        <record model="ir.actions.act_window" id="student_class_action">
+            <field name="name">Class</field>
+            <field name="res_model">student.class</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <menuitem id="student_root" name="Student Management" />
+        <menuitem id="student_menu" name="Student" parent="student_root" action="student_class_action" />
+        <menuitem id="student_menu2" name="Class" parent="student_menu" action="student_class_action" />
+        
+
+
+
+	</data>	
+</odoo>

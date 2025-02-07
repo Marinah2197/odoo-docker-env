@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- Sequences for  -->
+        <record id="seq_student_base" model="ir.sequence">
+            <field name="name">matricule</field>
+            <field name="code">student.base</field>
+            <field name="prefix">ST</field>
+            <field name="padding">3</field>
+            <field name="company_id" eval="False"/>
+        </record>
+    </data>
+</odoo>

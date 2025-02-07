@@ -1,0 +1,285 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* patient_management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0-20220919\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-31 07:25+0000\n"
+"PO-Revision-Date: 2022-10-31 07:25+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_base__message_needaction
+msgid "Action Needed"
+msgstr "gestion des patients"
+
+#. module: patient_management
+#: model_terms:ir.ui.view,arch_db:patient_management.patient_report_template
+msgid "Age"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_base__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_wizard__birth_date
+msgid "Birth date"
+msgstr "Date de naissance"
+
+#. module: patient_management
+#: model_terms:ir.ui.view,arch_db:patient_management.patient_wizard_view_form
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: patient_management
+#: model:ir.model.fields.selection,name:patient_management.selection__patient_base__state__cancelled
+#: model_terms:ir.ui.view,arch_db:patient_management.patient_base_view_form
+msgid "Cancelled"
+msgstr "Annuler"
+
+#. module: patient_management
+#: model_terms:ir.ui.view,arch_db:patient_management.patient_report_template
+msgid "Consultation Report"
+msgstr "Rapport de consultation"
+
+#. module: patient_management
+#: model:ir.actions.report,name:patient_management.patient_base_report
+msgid "Consultation report"
+msgstr "Rapport de consultation"
+
+#. module: patient_management
+#: model:ir.model.fields.selection,name:patient_management.selection__patient_base__state__consulted
+#: model_terms:ir.ui.view,arch_db:patient_management.patient_base_view_form
+msgid "Consulted"
+msgstr "Consulter"
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_base__create_uid
+#: model:ir.model.fields,field_description:patient_management.field_patient_wizard__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_base__create_date
+#: model:ir.model.fields,field_description:patient_management.field_patient_wizard__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_base__display_name
+#: model:ir.model.fields,field_description:patient_management.field_patient_wizard__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_base__firstname
+msgid "Firstname"
+msgstr "Prénom"
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_base__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_base__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_base__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_base__id
+#: model:ir.model.fields,field_description:patient_management.field_patient_wizard__id
+msgid "ID"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,help:patient_management.field_patient_base__message_needaction
+#: model:ir.model.fields,help:patient_management.field_patient_base__message_unread
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,help:patient_management.field_patient_base__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_base__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_base____last_update
+#: model:ir.model.fields,field_description:patient_management.field_patient_wizard____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_base__write_uid
+#: model:ir.model.fields,field_description:patient_management.field_patient_wizard__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_base__write_date
+#: model:ir.model.fields,field_description:patient_management.field_patient_wizard__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_base__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_base__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_base__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_base__name
+msgid "Name"
+msgstr "Nom complet"
+
+#. module: patient_management
+#: model:ir.model.fields.selection,name:patient_management.selection__patient_base__state__new
+msgid "New"
+msgstr "Nouveau"
+
+#. module: patient_management
+#: model_terms:ir.ui.view,arch_db:patient_management.patient_report_template
+msgid "Nom"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_base__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_base__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,help:patient_management.field_patient_base__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,help:patient_management.field_patient_base__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,help:patient_management.field_patient_base__message_unread_counter
+msgid "Number of unread messages"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.actions.act_window,name:patient_management.patient_base_action
+#: model:ir.ui.menu,name:patient_management.patient_base_menu
+msgid "Patient"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.ui.menu,name:patient_management.patient_management_root
+msgid "Patient Management"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model,name:patient_management.model_patient_base
+msgid "Patient management"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields.selection,name:patient_management.selection__patient_base__state__renews
+#: model_terms:ir.ui.view,arch_db:patient_management.patient_base_view_form
+msgid "Renews"
+msgstr "Mettre á nouveau"
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_base__state
+msgid "State"
+msgstr ""
+
+#. module: patient_management
+#: code:addons/patient_management/models/patient_base.py:0
+#, python-format
+msgid "Test Window Action"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields.selection,name:patient_management.selection__patient_base__state__treaty
+#: model_terms:ir.ui.view,arch_db:patient_management.patient_base_view_form
+msgid "Treaty"
+msgstr "Traiter"
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_base__message_unread
+msgid "Unread Messages"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_base__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr ""
+
+#. module: patient_management
+#: model_terms:ir.ui.view,arch_db:patient_management.patient_wizard_view_form
+msgid "Validated"
+msgstr "Enregistrer"
+
+#. module: patient_management
+#: model_terms:ir.ui.view,arch_db:patient_management.patient_base_view_form
+msgid "Wizard"
+msgstr ""
+
+#. module: patient_management
+#: model_terms:ir.ui.view,arch_db:patient_management.patient_wizard_view_form
+msgid "_form"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_base__age
+msgid "age"
+msgstr ""
+
+#. module: patient_management
+#: model:ir.model.fields,field_description:patient_management.field_patient_base__lastname
+msgid "lastname"
+msgstr "Nom"
+
+#. module: patient_management
+#: model:ir.model,name:patient_management.model_patient_wizard
+msgid "patient.wizard"
+msgstr ""
+
+#. module: patient_management
+#: model_terms:ir.ui.view,arch_db:patient_management.patient_base_view_form
+msgid "patient_base_form"
+msgstr ""
+
+#. module: patient_management
+#: model_terms:ir.ui.view,arch_db:patient_management.patient_base_view_tree
+msgid "patient_base_tree"
+msgstr ""
