@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_picking_form_easy_delivery" model="ir.ui.view">
+        <field name="name">stock.picking.form.easy.delivery</field>
+        <field name="model">stock.picking</field>
+        <field name="inherit_id" ref="stock.view_picking_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//button[@name='action_cancel']" position="before">
+                <button name="action_generate_easy_delivery_label"
+                        string="Generate Easy Delivery Label"
+                        type="object"
+                        invisible="carrier_id.delivery_type != 'easy_delivery'"
+                />
+            </xpath>
+        </field>
+    </record>
+</odoo>
